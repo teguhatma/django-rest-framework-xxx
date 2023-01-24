@@ -1,6 +1,6 @@
 from django.urls import include, path
 from rest_framework import routers
-from users import urls
+from users import urls as users_urls
 
 router = routers.DefaultRouter()
 
@@ -8,5 +8,5 @@ router = routers.DefaultRouter()
 # Additionally, we include login URLs for the browsable API.
 urlpatterns = [
     path('', include(router.urls)),
-    path('users/', include(urls)),
+    path('users/', include(users_urls)),
 ]
