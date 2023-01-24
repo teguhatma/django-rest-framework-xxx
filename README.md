@@ -4,16 +4,16 @@ Django Rest Framework
 ## Installation
 1. Create a virtual environment
 ```bash
-python3 -m venv venv
+python3 -m venv <env_name>
 ```
 
 2. Activate the virtual environment
 ```bash
 # Linux or MacOS
-. env/bin/activate
+. <env_name>/bin/activate
 
 # Windows
-env\Scripts\activate
+<env_name>\Scripts\activate
 ```
 
 3. Install the dependencies
