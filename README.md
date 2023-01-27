@@ -1,5 +1,5 @@
 # django-rest-framework-xxx
-Django Rest Framework
+- django-rest-framework-xxx is a Django REST framework project template.
 
 ## Installation
 1. Create a virtual environment
