@@ -2,9 +2,9 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 
 
-class ListApi(APIView):
+class Jobs(APIView):
     """
-    API endpoint that allows users to be viewed or edited.
+    API endpoint
     """
 
     def get(self, request, format=None):
